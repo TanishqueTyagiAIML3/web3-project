@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import zlib from "zlib";
-export const FAUCET_PRIVATEKEY = process.env.FAUCET_PRIVATEKEY || "MISSING_GITHUB_SECRET";
+export const FAUCET_PRIVATEKEY = process.env.FAUCET_PRIVATEKEY || "";
 export const INFURA_APIKEY = process.env.INFURA_APIKEY || "";
 export const ALCHEMY_APIKEY = process.env.ALCHEMY_APIKEY || "";
 // Find the package root (based on the nyc output/ folder)
